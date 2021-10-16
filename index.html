@@ -1,221 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    />
-    <title>Facebook</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-
-  <body>
-    <div class="header">
-      <img src="./img/facebook_logo.png" alt="" />
-      <div class="login">
-        <div class="login-textbox">
-          <label for="email"><b>Correo electrónico o telefono</b></label>
-          <br />
-          <input type="text" id="email" required />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+  <!-- Favicon -->
+  <link rel="icon" href="./img/favicon_facebook.png" type="image/png" />
+  <title>Jonathan Cardona</title>
+  <!-- Estilos Pagina Facebook -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="./img/facebook_logo.png" alt="" />
+    <div class="login">
+      <div class="login-textbox">
+        <label for="email"><b>Correo electrónico o telefono</b></label>
         <br />
-        <div class="login-textbox">
-          <label for="password"><b>Contraseña</b></label>
-          <br />
-          <input type="password" id="password" required />
-        </div>
+        <input type="text" id="email" required />
       </div>
-      <p class="login-remember">¿Has olvidado los datos de la cuenta?</p>
-      <button type="submit" class="entrar-login">Entrar</button>
-    </div>
-
-    <div class="banner-portada">
-      <img src="./img/banner.jpg" alt="" />
-      <nav>
-        <ul>
-          <li><a href="#">Amigos</a></li>
-          <li><a href="#">Fotos</a></li>
-          <li><a href="#">Videos</a></li>
-        </ul>
-      </nav>
-      <div class="profile-picture">
-        <img src="./img/profile_picture.jpg" alt="" />
-      </div>
-      <div class="name-user">
-        <p>Jonathan Cardona</p>
+      <br />
+      <div class="login-textbox">
+        <label for="password"><b>Contraseña</b></label>
+        <br />
+        <input type="password" id="password" required />
       </div>
     </div>
+    <p class="login-remember">¿Has olvidado los datos de la cuenta?</p>
+    <button type="submit" class="entrar-login">Entrar</button>
+  </div>
 
-    <div class="main">
-      <div class="left-section">
-        <div class="contenedor-info">
-          <img src="./img/info_img.png" alt="" />
-          <p>Información sobre Jonathan Cardona</p>
-        </div>
-
-        <p class="contenedor-info_formacion">FORMACIÓN ACADEMICA</p>
+  <div class="banner-portada">
+    <img src="./img/banner.jpg" alt="" />
+    <nav>
+      <ul>
+        <li><a href="#">Amigos</a></li>
+        <li><a href="#">Fotos</a></li>
+        <li><a href="#">Videos</a></li>
+      </ul>
+    </nav>
+    <div class="profile-picture">
+      <img src="./img/profile_picture.jpg" alt="" />
+    </div>
+    <div class="name-user">
+      <p>Jonathan Cardona</p>
+    </div>
+    <div class="confirmacion-sign-register">
+      <p id="confirmacion-sr_linea1">Jonathan Cardona está en Facebook.</p>
+      <p id="confirmacion-sr_linea2">
+        Para conectar con Jonathan, regístrate hoy en Facebook
+      </p>
+      <button class="confirmacion-sr_button1">Entrar</button>
+      <div class="lineas-separadoras">
         <hr />
-        <div class="contenedor-info_academica">
+        <p>o</p>
+        <hr />
+      </div>
+      <button class="confirmacion-sr_button2">Registrarte</button>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="left-section">
+      <div class="contenedor-info">
+        <img src="./img/info_img.png" alt="" />
+        <p>Información sobre Jonathan Cardona</p>
+      </div>
+
+      <p class="contenedor-info_formacion">FORMACIÓN ACADEMICA</p>
+      <hr />
+      <div class="contenedor-info_academica">
+        <div>
+          <i class="fas fa-user-graduate icono-graduado"></i>
+        </div>
+        <div class="contenedor-info_universidad">
+          <p id="titulo1">Universidad de Cambrigde</p>
+          <p id="subtitulo1">Londres</p>
+        </div>
+      </div>
+
+      <p class="contenedor-info_formacion">CIUDAD ACTUAL Y LOCALIDAD NATAL</p>
+      <hr />
+      <div class="contenedor-ciudad-localidad">
+        <div class="contenedor-info_ciudadactual">
           <div>
-            <i class="fas fa-user-graduate icono-graduado"></i>
+            <img src="./img/versalles.jpg" alt="" />
           </div>
-          <div class="contenedor-info_universidad">
-            <p id="titulo1">Universidad de Cambrigde</p>
-            <p id="subtitulo1">Londres</p>
-          </div>
-        </div>
-
-        <p class="contenedor-info_formacion">CIUDAD ACTUAL Y LOCALIDAD NATAL</p>
-        <hr />
-        <div class="contenedor-ciudad-localidad">
-          <div class="contenedor-info_ciudadactual">
-            <div>
-              <img src="./img/versalles.jpg" alt="" />
-            </div>
-            <div class="contenedor-info_ciudades">
-              <p id="titulo1">Versalles</p>
-              <p id="subtitulo1">Ciudad actual</p>
-            </div>
-          </div>
-          <hr />
-          <div class="contenedor-info_ciudadactual">
-            <div>
-              <img src="./img/medellin.jpg" alt="" />
-            </div>
-            <div class="contenedor-info_ciudades">
-              <p id="titulo1">Medellin (Antioquia)</p>
-              <p id="subtitulo1">Localidad natal</p>
-            </div>
+          <div class="contenedor-info_ciudades">
+            <p id="titulo1">Versalles</p>
+            <p id="subtitulo1">Ciudad actual</p>
           </div>
         </div>
-
-        <p class="contenedor-info_formacion">
-          OTROS LUGARES EN LOS QUE HAS VIVIDO
-        </p>
         <hr />
-        <div class="contenedor-otroslugares">
-          <div class="contenedor-info_ciudadactual">
-            <div class="contenedor_icono-location">
-              <i class="fas fa-map-marker-alt icono-location"></i>
-            </div>
-            <div class="contenedor-info_ciudades2">
-              <p id="titulo1">Madrid</p>
-              <p id="subtitulo1">Se mudó aquí</p>
-            </div>
+        <div class="contenedor-info_ciudadactual">
+          <div>
+            <img src="./img/medellin.jpg" alt="" />
+          </div>
+          <div class="contenedor-info_ciudades">
+            <p id="titulo1">Medellin (Antioquia)</p>
+            <p id="subtitulo1">Localidad natal</p>
           </div>
         </div>
-
-        <p class="contenedor-info_formacion">INFORMACIÓN SOBRE JONATHAN</p>
-        <hr />
-        <p id="informacion-jonathan">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-          esse ullam culpa sed! Dolores atque vero mollitia veniam esse officia,
-          suscipit optio voluptatum vitae exercitationem explicabo autem alias
-          assumenda, necessitatibus corporis labore accusantium libero facere
-          praesentium eligendi voluptates numquam laboriosam.
-        </p>
-
-        <p class="contenedor-info_formacion">CITAS FAVORITAS</p>
-        <hr />
-        <p id="citas-favoritas-jonathan">
-          HACE UN TIEMPO... <br />
-          ipsum dolor, sit amet consectetur adipisicing elit. Iusto sequi
-          nesciunt, voluptas ullam quo, ab deleniti dicta consequatur repellat
-          fugit molestias. Doloribus magnam earum iure cupiditate tempore itaque
-          tenetur pariatur, corrupti sunt beatae blanditiis error nihil facilis
-          temporibus vel repellendus repudiandae molestiae distinctio.
-          Reprehenderit magnam veritatis perferendis a! Quis reiciendis harum
-          totam doloribus deleniti blanditiis nulla eaque corporis aspernatur
-          quibusdam. Aperiam ducimus minima quo, voluptatibus pariatur omnis
-          sint maxime culpa vitae nam mollitia repellendus placeat at asperiores
-          vero! Quo mollitia ab libero debitis aliquid ducimus adipisci repellat
-          quidem ut molestias veritatis laudantium quibusdam necessitatibus
-          neque voluptatum, perferendis sit deserunt error.
-        </p>
       </div>
 
-      <div class="right">
-        <div class="right-one">
-          <div class="titulo-1">
-            <p>Fotos</p>
+      <p class="contenedor-info_formacion">
+        OTROS LUGARES EN LOS QUE HAS VIVIDO
+      </p>
+      <hr />
+      <div class="contenedor-otroslugares">
+        <div class="contenedor-info_ciudadactual">
+          <div class="contenedor_icono-location">
+            <i class="fas fa-map-marker-alt icono-location"></i>
           </div>
-          <div class="fotos-1">
-            <div class="primera-linea">
-              <img
-                src="https://images.unsplash.com/photo-1582415892501-9d50fafdbd9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
-                alt=""
-                class="primera-linea_img1"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                alt=""
-                class="primera-linea_img2"
-              />
-            </div>
-            <div class="segunda-linea">
-              <img
-                src="https://images.unsplash.com/photo-1523113501336-6ea4a7d6660d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
-                alt=""
-                class="segunda-linea_img1"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
-                alt=""
-                class="segunda-linea_img2"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80"
-                alt=""
-                class="segunda-linea_img3"
-              />
-            </div>
+          <div class="contenedor-info_ciudades2">
+            <p id="titulo1">Madrid</p>
+            <p id="subtitulo1">Se mudó aquí</p>
           </div>
-          <div class="boton-1">
-            <button class="ver-fotos">Ver más fotos</button>
-          </div>
-          <p class="numero-fotosplus">730+</p>
-        </div>
-
-        <div class="right-two">
-          <p id="titulo-otraspersonas1">Otras personas que se llaman Jonathan Cardona</p>
-          <div class="right-two_pt1">
-            <div><img src="https://images.unsplash.com/photo-1457449940276-e8deed18bfff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="" /></div>
-            <div class="right-two_pt1_name">Jonathan Cardona</div>
-          </div>
-          <small><a>Ver más personas que se llaman Jonathan Cardona</a></small>
-          
-          <div class="right-two_pt2">
-            <p id="titulo-otraspersonas2">Otras personas con un nombre parecido</p>
-            <div class="right-two_pt2_s1">
-              <div><img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" /></div>
-              <div class="right-two_pt2_s1_names">Cardona Yoto</div>
-            </div>
-            <div class="right-two_pt2_s1">
-              <div><img src="https://images.unsplash.com/photo-1520974735194-9e0ce82759fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="" /></div>
-              <div class="right-two_pt2_s1_names">Jonathan Samaniego</div>
-            </div>
-            <div class="right-two_pt2_s1">
-              <div><img src="https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="" /></div>
-              <div class="right-two_pt2_s1_names">Jonathan Calderon</div>
-            </div>
-            <div class="right-two_pt2_s1">
-              <div><img src="https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="" /></div>
-              <div class="right-two_pt2_s1_names">Jonathan Dread</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="right-three">
-          <p class="contenedor-info_contacto">INFORMACIÓN DE CONTACTO</p>
-          <hr />
-          <p id="texto-contacto">No hay información de contacto que mostrar</p>
         </div>
       </div>
+
+      <p class="contenedor-info_formacion">INFORMACIÓN SOBRE JONATHAN</p>
+      <hr />
+      <p id="informacion-jonathan">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+        esse ullam culpa sed! Dolores atque vero mollitia veniam esse officia,
+        suscipit optio voluptatum vitae exercitationem explicabo autem alias
+        assumenda, necessitatibus corporis labore accusantium libero facere
+        praesentium eligendi voluptates numquam laboriosam.
+      </p>
+
+      <p class="contenedor-info_formacion">CITAS FAVORITAS</p>
+      <hr />
+      <p id="citas-favoritas-jonathan">
+        HACE UN TIEMPO... <br />
+        ipsum dolor, sit amet consectetur adipisicing elit. Iusto sequi
+        nesciunt, voluptas ullam quo, ab deleniti dicta consequatur repellat
+        fugit molestias. Doloribus magnam earum iure cupiditate tempore itaque
+        tenetur pariatur, corrupti sunt beatae blanditiis error nihil facilis
+        temporibus vel repellendus repudiandae molestiae distinctio.
+        Reprehenderit magnam veritatis perferendis a! Quis reiciendis harum
+        totam doloribus deleniti blanditiis nulla eaque corporis aspernatur
+        quibusdam. Aperiam ducimus minima quo, voluptatibus pariatur omnis
+        sint maxime culpa vitae nam mollitia repellendus placeat at asperiores
+        vero! Quo mollitia ab libero debitis aliquid ducimus adipisci repellat
+        quidem ut molestias veritatis laudantium quibusdam necessitatibus
+        neque voluptatum, perferendis sit deserunt error.
+      </p>
     </div>
 
-  </body>
+    <div class="right">
+      <div class="right-one">
+        <div class="titulo-1">
+          <p>Fotos</p>
+        </div>
+        <div class="fotos-1">
+          <div class="primera-linea">
+            <img
+              src="https://images.unsplash.com/photo-1582415892501-9d50fafdbd9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+              alt="" class="primera-linea_img1" />
+            <img
+              src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              alt="" class="primera-linea_img2" />
+          </div>
+          <div class="segunda-linea">
+            <img
+              src="https://images.unsplash.com/photo-1523113501336-6ea4a7d6660d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+              alt="" class="segunda-linea_img1" />
+            <img
+              src="https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+              alt="" class="segunda-linea_img2" />
+            <img
+              src="https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80"
+              alt="" class="segunda-linea_img3" />
+          </div>
+        </div>
+        <div class="boton-1">
+          <button class="ver-fotos">Ver más fotos</button>
+        </div>
+        <p class="numero-fotosplus">730+</p>
+      </div>
+
+      <div class="right-two">
+        <p id="titulo-otraspersonas1">
+          Otras personas que se llaman Jonathan Cardona
+        </p>
+        <div class="right-two_pt1">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1457449940276-e8deed18bfff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+              alt="" />
+          </div>
+          <div class="right-two_pt1_name">Jonathan Cardona</div>
+        </div>
+        <small><a>Ver más personas que se llaman Jonathan Cardona</a></small>
+
+        <div class="right-two_pt2">
+          <p id="titulo-otraspersonas2">
+            Otras personas con un nombre parecido
+          </p>
+          <div class="right-two_pt2_s1">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                alt="" />
+            </div>
+            <div class="right-two_pt2_s1_names">Cardona Yoto</div>
+          </div>
+          <div class="right-two_pt2_s1">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1520974735194-9e0ce82759fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
+                alt="" />
+            </div>
+            <div class="right-two_pt2_s1_names">Jonathan Samaniego</div>
+          </div>
+          <div class="right-two_pt2_s1">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
+                alt="" />
+            </div>
+            <div class="right-two_pt2_s1_names">Jonathan Calderon</div>
+          </div>
+          <div class="right-two_pt2_s1">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
+                alt="" />
+            </div>
+            <div class="right-two_pt2_s1_names">Jonathan Dread</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-three">
+        <p class="contenedor-info_contacto">INFORMACIÓN DE CONTACTO</p>
+        <hr />
+        <p id="texto-contacto">No hay información de contacto que mostrar</p>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
